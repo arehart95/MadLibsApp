@@ -1,0 +1,35 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>{{ album_name }}</title>
+</head>
+<body>
+<h1 class="main_heading">Select a song</h1>
+ <!--   <ul class="song_list">
+        <li>Lavender Haze</li>
+        <li>Maroon</li>
+        <li>Anti-Hero</li>
+        <li>Snow On The Beach</li>
+        <li>You're On Your Own, Kid</li>
+        <li>Midnight Rain</li>
+        <li>Question...?</li>
+        <li>Vigilante Shit</li>
+        <li>Bejeweled</li>
+        <li>Labyrinth</li>
+        <li>Karma</li>
+        <li>Sweet Nothing</li>
+        <li>Mastermind</li>
+    </ul> -->
+
+{% for i in "song_titles" %}
+    <ul>
+        <li> {{ i }} </li>
+    </ul>
+{% endfor %}
+
+
+
+</body>
+</html>

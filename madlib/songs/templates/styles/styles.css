@@ -1,0 +1,22 @@
+#midnights {
+    text-align: center;
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: darkblue;
+    text-underline: darkblue;
+}
+
+.main_heading {
+    text-align: center;
+}
+
+.song_list {
+    list-style-position: inside;
+    text-align: center;
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: larger;
+}
+
+li {
+     margin-bottom: 15px;
+    padding: 0;
+}
